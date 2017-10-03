@@ -23,6 +23,11 @@
     
  - [Libraries](#libraries)
  
+ - [Art](#art)
+    - [Nexus 5 Screens](#nexus-5-screens)
+    - [Nexus 7 Screens](#nexus-7-screens)
+    - [Pixel C Screens](#pixel-c-screens)
+    
  - [License](#license)
 
 ## What is in this project
@@ -65,6 +70,20 @@
   - [Espresso](https://developer.android.com/training/testing/espresso/index.html)
   - [Gide](https://github.com/bumptech/glide)    
     
+# Art
+
+## Nexus 5 Screens
+![screen](../master/art/nexus5_baking_app_portrait_poster.jpg)
+![screen](../master/art/nexus5_baking_app_landscape_poster.jpg)
+
+## Nexus 7 Screens
+![screen](../master/art/nexus7_baking_app_portrait_poster.jpg)
+![screen](../master/art/nexus7_baking_app_landscape_poster.jpg)
+
+## Pixel C Screens
+![screen](../master/art/pixelC_baking_app_portrait_poster.jpg)
+![screen](../master/art/pixelC_baking_app_landscape_poster.jpg)
+
 # License
 
 ```Copyright 2017 Endika Aguilera```
