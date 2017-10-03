@@ -1,4 +1,4 @@
-# BakingApp
+# Baking App
 
 - Project for [Android Developer Nanodregree](https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801) by [Udacity](https://www.udacity.com/).
 
@@ -10,6 +10,19 @@
 
 - One of the skills you will demonstrate in this project is how to handle unexpected input in your data -- professional developers often cannot expect polished JSON data when building an app.
 
+# Navigate
+
+  - [Baking App](#baking-app)
+  
+  - [What's in this project?](#what's-in-this-project?)
+  
+  - [Project Meets Required Specifications](#project-meets-required-specifications)
+    - [General App Usage](#general-app-usage)
+    - [Components and Libraries](#components-and-librariest)
+    - [Homescreen Widget](#homescreen-widget)
+    
+ - [License](#license)
+
 ## What's in this project?
 
   - [x] Use MediaPlayer/Exoplayer to display videos.
@@ -17,6 +30,9 @@
   - [x] Add a widget to your app experience.
   - [x] Leverage a third-party library in your app.
   - [x] Use Fragments to create a responsive design that works on phones and tablets.
+
+
+# Project Meets Required Specifications
 
 ## General App Usage
 
@@ -38,4 +54,20 @@
 
   - [x] Application has a companion homescreen widget.
   - [x] Widget displays ingredient list for desired recipe.
+  
 
+# License
+
+```Copyright 2017 Endika Aguilera```
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
