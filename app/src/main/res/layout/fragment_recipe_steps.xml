@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_steps_constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/steps_scroll"
+        android:layout_width="@dimen/no_dimen"
+        android:layout_height="@dimen/no_dimen"
+        android:layout_margin="@dimen/no_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/container_constraint_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/steps_card"
+                android:layout_width="@dimen/no_dimen"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/grid_view_padding"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:orientation="vertical"
+                app:cardCornerRadius="@dimen/grid_view_padding"
+                app:cardElevation="@dimen/grid_view_item_padding"
+                app:layout_constraintBottom_toTopOf="@+id/step_img_helper"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/steps_constraint_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+                        android:id="@+id/player"
+                        android:layout_width="@dimen/no_dimen"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/grid_view_padding"
+                        android:visibility="visible"
+                        app:default_artwork="@drawable/recipe_placeholder"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:surface_type="texture_view"
+                        app:use_controller="false" />
+
+                    <TextView
+                        android:id="@+id/step_pos"
+                        android:layout_width="@dimen/no_dimen"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/no_margin"
+                        android:padding="@dimen/card_view_texts_margin"
+                        android:text="@string/app_name"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/colorTextDark"
+                        android:textStyle="bold"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/player" />
+
+                    <TextView
+                        android:id="@+id/step_description"
+                        android:layout_width="@dimen/no_dimen"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/no_margin"
+                        android:padding="@dimen/card_view_texts_margin"
+                        android:text="@string/app_name"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                        android:textColor="@color/colorTextLight"
+                        android:textStyle="bold"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/step_pos" />
+
+                    <android.support.design.widget.BottomNavigationView
+                        android:id="@+id/navigation"
+                        android:layout_width="@dimen/no_dimen"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/no_margin"
+                        android:background="@color/colorPayerNavBackground"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/step_description"
+                        app:menu="@menu/navigation" />
+
+                </android.support.constraint.ConstraintLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <ImageView
+                android:id="@+id/step_img_helper"
+                android:layout_width="@dimen/no_dimen"
+                android:layout_height="@dimen/margin_bottom_helper"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:layout_editor_absoluteX="8dp" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="grid_view_padding">4dp</dimen>
+    <dimen name="grid_view_item_padding">2dp</dimen>
+
+    <dimen name="margin_bottom_helper">100dp</dimen>
+
+    <dimen name="card_view_margin">12dp</dimen>
+
+    <dimen name="card_view_texts_margin">8dp</dimen>
+
+    <dimen name="no_margin">0dp</dimen>
+
+    <dimen name="widget_title_min_height">50dp</dimen>
+    <dimen name="widget_list_divider_height">1dp</dimen>
+    <dimen name="no_dimen">0dp</dimen>
+
+</resources>

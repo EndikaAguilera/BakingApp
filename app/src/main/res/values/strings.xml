@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">Baking App</string>
+
+    <string name="error_data">No available data.</string>
+    <string name="error_retrieving">Error retrieving data</string>
+    <string name="choose_hint">Please choose a recipe</string>
+    <string name="add_to_widget">ADD TO WIDGET</string>
+    <string name="add_to_widget_success">Recipe Added To Widget</string>
+    <string name="add_to_widget_error">No available widget found</string>
+    <string name="add_to_widget_recipe_error">You must select a recipe</string>
+    <string name="recipe_image_content_description">Recipe Image</string>
+
+    <string name="retry">RETRY</string>
+    <string name="ok">OK</string>
+    <string name="no">NO</string>
+    <string name="exit">EXIT</string>
+
+    <string name="internet_error_dialog_title">Internet Connection Error</string>
+    <string name="internet_error_dialog_message">Please check your internet connection and try again.</string>
+    <string name="exit_app_dialog_title">Exit App?</string>
+    <string name="exit_app_dialog_message">Do you want to quit the app?</string>
+
+    <string name="prev">Prev</string>
+    <string name="next">Next</string>
+
+</resources>

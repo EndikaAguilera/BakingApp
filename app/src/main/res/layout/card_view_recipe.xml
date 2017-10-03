@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recipe_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/grid_view_padding"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardCornerRadius="@dimen/grid_view_item_padding"
+    card_view:cardElevation="@dimen/grid_view_item_padding">
+
+    <ImageView
+        android:id="@+id/recipe_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/recipe_image_content_description"
+        android:scaleType="fitXY"
+        tools:src="@drawable/recipe_placeholder" />
+
+    <TextView
+        android:id="@+id/recipe_servings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="@dimen/grid_view_item_padding"
+        android:background="@drawable/border_shape"
+        android:drawablePadding="@dimen/grid_view_item_padding"
+        android:drawableStart="@drawable/ic_people_24dp"
+        android:gravity="center_vertical"
+        android:padding="@dimen/grid_view_padding"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="@color/colorTextDark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/recipe_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="@dimen/grid_view_item_padding"
+        android:padding="@dimen/grid_view_item_padding"
+        android:text="@string/app_name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</android.support.v7.widget.CardView>
