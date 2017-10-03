@@ -21,6 +21,8 @@
     - [Components and Libraries](#components-and-libraries)
     - [Homescreen Widget](#homescreen-widget)
     
+ - [Libraries](#libraries)
+ 
  - [License](#license)
 
 ## What is in this project
@@ -55,7 +57,14 @@
   - [x] Application has a companion homescreen widget.
   - [x] Widget displays ingredient list for desired recipe.
   
-
+# Libraries
+  - [ExoPlayer](https://github.com/google/ExoPlayer)
+  - [Butter Knife](http://jakewharton.github.io/butterknife/)
+  - [Volley](https://developer.android.com/training/volley/index.html)
+  - [Gson](https://github.com/google/gson)
+  - [Espresso](https://developer.android.com/training/testing/espresso/index.html)
+  - [Gide](https://github.com/bumptech/glide)    
+    
 # License
 
 ```Copyright 2017 Endika Aguilera```
