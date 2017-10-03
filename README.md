@@ -73,16 +73,16 @@
 # Art
 
 ## Nexus 5 Screens
-![screen](../master/art/nexus5_baking_app_portrait_poster.jpg)
-![screen](../master/art/nexus5_baking_app_landscape_poster.jpg)
+![screen](../master/art/nexus_5_baking_app_portrait_poster.jpg)
+![screen](../master/art/nexus_5_baking_app_landscape_poster.jpg)
 
 ## Nexus 7 Screens
-![screen](../master/art/nexus7_baking_app_portrait_poster.jpg)
-![screen](../master/art/nexus7_baking_app_landscape_poster.jpg)
+![screen](../master/art/nexus_7_baking_app_portrait_poster.jpg)
+![screen](../master/art/nexus_7_baking_app_landscape_poster.jpg)
 
 ## Pixel C Screens
-![screen](../master/art/pixelC_baking_app_portrait_poster.jpg)
-![screen](../master/art/pixelC_baking_app_landscape_poster.jpg)
+![screen](../master/art/pixel_C_baking_app_portrait_poster.jpg)
+![screen](../master/art/pixel_C_baking_app_landscape_poster.jpg)
 
 # License
 
