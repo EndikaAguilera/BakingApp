@@ -14,7 +14,7 @@
 
   - [Baking App](#baking-app)
   
-  - [What's in this project](#what's-in-this-project)
+  - [Whats in this project](#whats-in-this-project)
   
   - [Project Meets Required Specifications](#project-meets-required-specifications)
     - [General App Usage](#general-app-usage)
@@ -23,7 +23,7 @@
     
  - [License](#license)
 
-## What's in this project
+## Whats in this project
 
   - [x] Use MediaPlayer/Exoplayer to display videos.
   - [x] Handle error cases in Android.
