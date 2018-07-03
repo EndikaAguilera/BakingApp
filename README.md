@@ -73,16 +73,16 @@
 # Art
 
 ## Nexus 5 Screens
-![screen](../master/art/nexus_5_baking_app_portrait_poster.jpg)
-![screen](../master/art/nexus_5_baking_app_landscape_poster.jpg)
+![screen](https://raw.githubusercontent.com/endikaaguilera/myreposassets/master/baking_app/nexus_5_baking_app_portrait_poster.jpg)
+![screen](https://raw.githubusercontent.com/endikaaguilera/myreposassets/master/baking_app/nexus_5_baking_app_landscape_poster.jpg)
 
 ## Nexus 7 Screens
-![screen](../master/art/nexus_7_baking_app_portrait_poster.jpg)
-![screen](../master/art/nexus_7_baking_app_landscape_poster.jpg)
+![screen](https://raw.githubusercontent.com/endikaaguilera/myreposassets/master/baking_app/nexus_7_baking_app_portrait_poster.jpg)
+![screen](https://raw.githubusercontent.com/endikaaguilera/myreposassets/master/baking_app/nexus_7_baking_app_landscape_poster.jpg)
 
 ## Pixel C Screens
-![screen](../master/art/pixel_C_baking_app_portrait_poster.jpg)
-![screen](../master/art/pixel_C_baking_app_landscape_poster.jpg)
+![screen](https://raw.githubusercontent.com/endikaaguilera/myreposassets/master/baking_app/pixel_C_baking_app_portrait_poster.jpg)
+![screen](https://raw.githubusercontent.com/endikaaguilera/myreposassets/master/baking_app/pixel_C_baking_app_landscape_poster.jpg)
 
 # License
 
